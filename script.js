@@ -34,7 +34,7 @@ let weather = {
       document.querySelector(".tempmin").innerText = "Min Temp: " + temp_min + "°C";
     document.querySelector(".weather").classList.remove("loading");
     document.body.style.backgroundImage =
-      "url('https://source.unsplash.com/1600x900/?" + name +" , " + description + "')";
+      "url('https://source.unsplash.com/1600x900/?" + name ')";
   },
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);
